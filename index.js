@@ -5,7 +5,7 @@ var cors = require('cors');
 app.use(
     cors({
         credentials: true,
-        origin: 'https://nostalgic-newton-aeb45c.netlify.app/'
+        origin: 'https://nostalgic-newton-aeb45c.netlify.app'
     })
 );
 app.options('*', cors());
